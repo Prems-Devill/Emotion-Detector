@@ -33,7 +33,6 @@ def emotion_detector(text_to_analyze):
 
     json_response = json.loads(response.text)
     emotions = json_response['emotionPredictions'][0]['emotion']
-
     dominant_emotion = max(emotions, key=emotions.get)
 
     return {
