@@ -1,6 +1,6 @@
-$ python3 -m unittest test_emotion_detection.py
-..
+$ python3 test_emotion_detection.py
+.....
 ----------------------------------------------------------------------
-Ran 2 tests in 0.123s
+Ran 5 tests in 0.516s
 
 OK
