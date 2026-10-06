@@ -1,6 +1,6 @@
 $ python3
 >>> import EmotionDetection
->>> from EmotionDetection import emotion_detector
->>> print("EmotionDetection is a valid package")
-EmotionDetection is a valid package
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I am really mad about this")
+{'anger': 0.64949876, 'disgust': 0.03718168, 'fear': 0.05612277, 'joy': 0.00862553, 'sadness': 0.1955148, 'dominant_emotion': 'anger'}
 >>>
