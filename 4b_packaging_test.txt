@@ -1,0 +1,6 @@
+$ python3
+>>> import EmotionDetection
+>>> from EmotionDetection import emotion_detector
+>>> print("EmotionDetection is a valid package")
+EmotionDetection is a valid package
+>>>
